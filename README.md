@@ -1,4 +1,4 @@
-# goal_chaser
+# Todo-App-VueJs
 
 ## Project setup
 ```
