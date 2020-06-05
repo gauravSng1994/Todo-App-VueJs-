@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Todos</h1>
+<!--        <h1>Todos</h1>-->
         <div v-for="todo in todos" v-bind:key="todo.id">
             <TodoItem v-bind:todo="todo" @del-todo="$emit('del-todo',todo.id)"/>
         </div>
